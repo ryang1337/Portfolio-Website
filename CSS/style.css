@@ -139,7 +139,7 @@ body.loaded .fade_in{
 	padding-bottom:150px;
 }
 
-.name1, .name2{
+.name_1, .name_2{
 	font-family: "Poppins";
 	color: #7BC8F6;
 	display:flex;
@@ -147,7 +147,7 @@ body.loaded .fade_in{
 	justify-content: center;
 }
 
-.name1{
+.name_1{
 	font-size: 120px;
 	opacity:0%;
 	animation: 0.6s 0.2s bringUpFade;
@@ -155,7 +155,7 @@ body.loaded .fade_in{
 	z-index:-1;
 }
 
-.name2{
+.name_2{
 	padding-top:50px;
 	text-align: center;
 	width:550px;
@@ -177,6 +177,32 @@ body.loaded .fade_in{
 		opacity: 100%;
 		transform: translateY(0px);
 	}
+}
+
+.about_me{
+	background:#fffbf5;
+}
+
+#imageMe{
+	padding-top: 50px;
+	display:flex;
+	align-content: center;
+	justify-content: center;
+}
+
+#imageMe img{
+	width:150px;
+	border-radius: 50%;
+}
+
+.about_me p{
+	padding-top: 50px;
+	font-family: "Inter";
+
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
 }
 
 footer{
